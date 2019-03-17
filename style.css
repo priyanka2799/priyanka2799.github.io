@@ -25,6 +25,7 @@ nav{
 }
 
 ul{
+    
 
 }
 
@@ -35,14 +36,21 @@ ul li{
     line-height: 40px;
     float: left;
     line-height: 40px;
-
+    
 }
 
 ul li a{
     display: block;
     text-decoration: none;
+    text-align: center;
     font-size: 37px;
     font-family: basilisk;
     color: rgb(224, 200, 200);
     padding: 0 80px;
+}
+
+.pic1{
+    background: url("pic4.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
