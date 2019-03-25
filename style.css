@@ -49,8 +49,14 @@ ul li a{
     padding: 0 80px;
 }
 
+.pic2{
+    background: url("pic8.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
 .pic1{
-    background: url("pic4.jpg");
+    background: url("pic5.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
