@@ -60,3 +60,15 @@ ul li a{
     background-size: 100%;
     background-repeat: no-repeat;
 }
+
+p{
+    
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 37px;
+    font-family: basilisk;
+    color: rgb(60, 24, 70);
+    padding: 0 80px;
+
+}
