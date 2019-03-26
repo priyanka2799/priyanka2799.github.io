@@ -68,7 +68,35 @@ p{
     text-align: center;
     font-size: 37px;
     font-family: basilisk;
-    color: rgb(200, 88, 90);
+    color: rgb(80, 7, 8);
     padding: 0 80px;
 
+}
+
+.icons{
+
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+}
+
+.icons2{
+
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    text-align: center;
+    list-style: none;
+    line-height: 80px;
+    font-size: 35px;
+    margin: 0 10px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #fff;
+    
 }
