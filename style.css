@@ -59,6 +59,9 @@ ul li a{
     background: url("pic5.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    background: #2626262;
 }
 
 p{
@@ -73,7 +76,7 @@ p{
 
 }
 
-ul li .icons{
+ul li .fa{
 
     display: flex;
     position: absolute;
@@ -83,13 +86,13 @@ ul li .icons{
    
 }
 
-ul li a .icons2{
+ul li a .fa{
 
     width: 80px;
     height: 80px;
     background: #fff;
     text-align: center;
-    list-style: none;
+   
     line-height: 80px;
     font-size: 35px;
     margin: 0 10px;
@@ -98,7 +101,7 @@ ul li a .icons2{
     position: relative;
     overflow: hidden;
     border: 3px solid #fff;
-    
+    z-index: 1;
 }
 
 ul li a .fa{
@@ -108,5 +111,34 @@ ul li a .fa{
 }
 
 ul li a:hover .fa{
-    
+    color: #fff; 
+    transform: rotateY(360deg);
+}
+
+ul li a:before .fa{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: .5s;
+}
+
+ul li a:hover:before .fa{
+    top: 0;
+    z-index: 2;
+}
+
+ul li:nth-child(1) a:before .fa{
+    background: #3b5999;
+}
+
+ul li:nth-child(2) a:before .fa{
+    background: #0077B5;
+}
+
+ul li:nth-child(3) a:before .fa{
+    background: #b92b27;
 }
